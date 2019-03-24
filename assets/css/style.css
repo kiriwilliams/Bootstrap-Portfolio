@@ -1,5 +1,26 @@
 /* Background pattern from Toptal Subtle Patterns */
-
+html, body{
+    height: 100%;
+}
 body{
     background-image: url("../images/shattered.png");
+    display: flex;
+    flex-direction: column;
 }
+.navbar-brand{
+    background-color: #4aaaa5;
+} 
+
+footer{
+    background: #666;
+    color: white;
+    border-top: 6px solid #4aaaa5;
+    padding: 10px;
+    flex-shrink: 0;
+}
+body{
+    min-height:100vh;
+ }
+ main {
+    flex:1 0 auto;
+ }
